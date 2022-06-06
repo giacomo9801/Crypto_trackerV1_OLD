@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorsplashscreen"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/edittextastar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ASTAR"
+        android:textColorHint="@color/md_white_1000"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:textColor="@color/md_white_1000"></EditText>
+
+    <EditText
+        android:id="@+id/edittextbtt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:hint="BTT"
+        android:textColor="@color/md_white_1000"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/md_white_1000"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/edittextatom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="ATOM"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/edittextdot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:hint="DOT"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/edittexthuahua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:textColorHint="@color/md_white_1000"
+        android:hint="HUAHUA"
+        android:textColor="@color/md_white_1000"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/edittextjuno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textColorHint="@color/md_white_1000"
+        android:hint="JUNO"
+        android:textColor="@color/md_white_1000"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/edittextosmo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:hint="OSMO"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"></EditText>
+
+    <EditText
+        android:id="@+id/edittextscrt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:textColor="@color/md_white_1000"
+        android:textColorHint="@color/md_white_1000"
+        android:hint="SCRT"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"></EditText>
+
+</RelativeLayout>
